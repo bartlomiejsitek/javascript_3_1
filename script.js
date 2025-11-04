@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Proszę wprowadzić nazwę stolicy.');
             return;
         }
-
         errorDiv.classList.add('hidden');
         countryTable.classList.add('hidden');
         countryTableBody.innerHTML = '';
