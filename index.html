@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacje o Kraju</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Wyszukaj Informacje o Kraju</h1>
+        <div class="search-section">
+            <label for="capitalInput">Wprowadź stolicę:</label>
+            <input type="text" id="capitalInput" placeholder="np. Warsaw">
+            <button id="searchButton">Szukaj</button>
+        </div>
+
+        <div id="error" class="hidden"></div>
+
+        <table id="countryTable" class="hidden" border="1">
+            <thead>
+                <tr>
+                    <th>Nazwa</th>
+                    <th>Stolica</th>
+                    <th>Populacja</th>
+                    <th>Region</th>
+                    <th>Podregion</th>
+                </tr>
+            </thead>
+            <tbody id="countryTableBody">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
